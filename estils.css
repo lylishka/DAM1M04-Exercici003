@@ -1,1 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.container-black {
+    background-color: black;
+    color: white;   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.container-black .content {
+    padding: 20px 10px;
+}
+
+.container-grey {
+    background-color: #f2f2f2;
+    color: black;   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;    
+}
+
+.container-grey .content {
+    padding: 20px 10px;
+}
+/* Menú fijo en la parte superior */
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: #1c1c1c; /* Fondo oscuro como tu página */
+    color: #f5f5f5;
+    z-index: 999; /* Para que esté por encima de otros elementos */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.topnav .brand{
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.topnav .menu {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.img_hero {
+    margin: 46px 87px 87px 87px;
+    text-align: center;
+}
