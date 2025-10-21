@@ -81,8 +81,23 @@ body {
     margin: 40px auto 0;
 }
 
-.buy_now bottoon {
-    border-color: #ff4169;
-    
-    border-radius: 10%;
-flex}
+.buy_now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 40px;
+    padding-left: 4px;
+    background-color: #ffffff;
+    color: #ff4169;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #ff4169;
+    border-radius: 30px;
+}
+
+.buy_now:hover {
+    background-color: #ff4169;
+    color: #ffffff;
+    cursor: pointer;
+}
