@@ -31,35 +31,78 @@ body {
     padding: 20px 10px;
 }
 /* Menú fijo en la parte superior */
+
 .topnav {
+    width: 100%;
+    display: sticky;
+    flex-direction: column; /* Para tener top y bottom */
+    font-family: sans-serif;
+}
+
+/* Parte superior (logo, info, etc.) */
+.topnav-top {
+    width: 100%;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.15); /* transparencia para efecto glass */
+    backdrop-filter: blur(10px); /* efecto Frozen Glass */
+    -webkit-backdrop-filter: blur(10px); /* soporte Safari */
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Parte inferior (menú principal sticky) */
+.topnav-bottom {
     position: sticky;
     top: 0;
-    background-color: #1c1c1c; /* Fondo oscuro como tu página */
-    color: #f5f5f5;
-    z-index: 999; /* Para que esté por encima de otros elementos */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.15); /* mismo efecto glass */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 16px;
-}
-.topnav .brand{
-    font-weight: 700;
-    letter-spacing: 0.2px;
-    white-space: nowrap;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    z-index: 999;
 }
 
-.topnav .menu {
+/* Estilo del menú */
+.topnav-bottom .menu {
     list-style: none;
     display: flex;
     gap: 18px;
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
+
+.topnav-bottom .menu li {
+    cursor: pointer;
+    color: #333; /* texto oscuro */
+    font-weight: 500;
 }
 
 
+
 .img_hero {
-    margin: 46px 87px 87px 87px;
+    width: 100%;
+    margin: 46px auto 130px;
     text-align: center;
+}
+
+.description {
+    font-size: 22px;
+    text-align: center;
+}
+
+.ordena {
+    max-width: 750px;
+    margin: 40px auto 0;
+}
+
+.buy_now bottoon {
+    border-color: #ff4169;
+    
+    border-radius: 10%;
 }
