@@ -20,9 +20,32 @@ body {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-black .titulo {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
     font-size: 55px;
     font-weight: 600;
     text-align: center;
+    font-weight: bold;
+}
+
+.container-black .titulo2 {
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 170px;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
 }
 
 .container-black p {
@@ -31,6 +54,14 @@ body {
     text-align: center;
     margin: -10px auto 30px auto;
     max-width: 690px;
+}
+
+.container-black .p2 {
+    color: #b0b0b0;
+    font-size: 20px;
+    text-align: center;
+    margin: -10px auto 30px auto;
+    max-width: 820px;
 }
 
 .container-black img {
@@ -241,9 +272,9 @@ body {
 .cards2 {
     display: flex;
     flex-direction: row;
-    background-color: #1d1c1f;
+    background-color: #1b1b1d;
     width: 1080px;
-    min-height: 460px;
+    min-height: 413px;
     border-radius: 20px;
     padding: 40px 60px 40px 60px;
     box-sizing: border-box;
@@ -273,8 +304,9 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 20.5px;
-    margin-left: -12px;
-    max-width: 450px;
+    margin-left: -2px;
+    max-width: 400px;
+    text-align: left;
 }
 
 .cards2 video {
@@ -284,7 +316,82 @@ body {
     right: 0;
     width: 550px;
     height: 100%;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 80px 0;
 }
 
+.contenerito {
+    max-width: 900;
+    margin: 120px auto 100 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+}
 
+.card3 {
+    width: 370px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+}
+
+.card3-solo {
+    width: 360px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: -480px;
+}
+
+.card3 h2, .card3-solo h2 {
+    color: #f5f5f7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card3 p, .card3-solo p {
+    color: #c3c2c5;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    width: 350px;
+}
+
+.raw-link {
+    color: #026fc9;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.raw-link:hover {
+    color: #358cd4;
+    cursor: pointer;
+}
+
+.card3 img, .card3-solo img {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.url {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
