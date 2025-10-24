@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.container-black h1 {
+.container-black h1, .container-grey h1 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -76,13 +76,11 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 20px 10px;
     box-sizing: border-box;    
 }
 
-.container-grey {
-    padding: 20px 10px;
-}
+
 
 /* Menu*/
 .topnav{
