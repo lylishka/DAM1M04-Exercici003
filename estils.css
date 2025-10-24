@@ -766,3 +766,37 @@ h1 .yellow {
     color: #86868b;
     font-size: 12px;
 }
+/* --- Sección final tipo Pixelmator --- */
+.buy-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 100px 20px;
+  margin-top: 60px;
+}
+
+.buy-logo {
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.buy-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.buy-text {
+  font-size: 16px;
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+}
