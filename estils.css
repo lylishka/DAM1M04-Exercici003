@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.container-black h1 {
+.container-black h1, h1 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -26,7 +26,7 @@ body {
     font-weight: bold;
 }
 
-.container-black .titulo {
+.container-black .titulo , titulo {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -37,7 +37,7 @@ body {
     font-weight: bold;
 }
 
-.container-black .titulo2 {
+.container-black .titulo2 , titulo2 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
 }
 
-.container-black p {
+.container-black p , p {
     color: #b0b0b0;
     font-size: 20px;
     text-align: center;
@@ -56,7 +56,7 @@ body {
     max-width: 690px;
 }
 
-.container-black .p2 {
+.container-black .p2, p2 {
     color: #b0b0b0;
     font-size: 20px;
     text-align: center;
@@ -64,7 +64,7 @@ body {
     max-width: 820px;
 }
 
-.container-black img {
+.container-black img{
     max-width: 100%;
     height: auto;
     margin: 0 auto;
