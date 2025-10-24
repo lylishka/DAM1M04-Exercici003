@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.container-black h1, .container-grey h1 {
+.container-black h1, .container-grey h1, h1 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
 }
 
-.container-black p {
+.container-black p, p {
     color: #b0b0b0;
     font-size: 20px;
     text-align: center;
