@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.container-black h1, .container-grey h1, h1 {
+.container-black h1, .container-grey h1 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
 }
 
-.container-black p, p {
+.container-black p {
     color: #b0b0b0;
     font-size: 20px;
     text-align: center;
@@ -658,4 +658,56 @@ h1 .yellow {
 
 .card8 h2 {
     color: #ffffff
+}
+
+.contenedor6 {
+    max-width: 1000px;
+    display: flex;
+    margin: 40px auto 30px auto;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.item img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.item p {
+   color: #000000;
+   font-size: 16px;
+   font-weight: bold;
+   margin: 0; 
+
+
+}
+
+.link {
+    color: #026fc9;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    color: #358cd4;
 }
