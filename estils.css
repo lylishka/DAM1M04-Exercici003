@@ -4,7 +4,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container-black {
+.container-black{
     background-color: black;
     color: white;   
     width: 100vm;
@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.container-black h1, .container-grey h1 {
+.container-black h1, h1, .container-grey h1 {
     max-width: 730px;
     margin-right: auto;
     margin-left: auto;
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
 }
 
-.container-black p {
+.container-black p, p {
     color: #b0b0b0;
     font-size: 20px;
     text-align: center;
@@ -130,7 +130,7 @@ body {
     max-width: 690px;
 }
 
-/* Menu*/
+
 .topnav{
   position: sticky;
   top: 0;
@@ -305,7 +305,7 @@ body {
     position: relative;
 }
 
-.img2 {
+.img2{
     width: 90px;
     height: auto;
     display: block;
@@ -315,6 +315,15 @@ body {
     margin-bottom: 0px;
 }
 
+.img3 {
+    position: absolute;
+    top: 0x;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 100%;
+    border-radius: 0 20px 80px 0;
+}
 .cards2 {
     display: flex;
     flex-direction: row;
@@ -330,8 +339,22 @@ body {
     position: relative;
     padding-right: 460px;
 }
-
-.cards2-texto {
+.cards3 {
+    display: flex;
+    flex-direction: row;
+    background-color: lab(92.7% 0 -0.01);
+    width: 1080px;
+    min-height: 413px;
+    border-radius: 20px;
+    padding: 40px 60px 40px 60px;
+    box-sizing: border-box;
+    color: #ffffff;
+    gap: 0;
+    margin-top: 40px;
+    position: relative;
+    padding-right: 460px;
+}
+.cards2-texto, .cads3-texto {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -344,7 +367,12 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
+.cards3 h2 {
+    color: hsl(0, 0%, 0%);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 .cards2 p {
     color: #c3c2c5;
     margin-top: 0px;
@@ -355,6 +383,15 @@ body {
     text-align: left;
 }
 
+.cards3 p {
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20.5px;
+    margin-left: -2px;
+    max-width: 400px;
+    text-align: left;
+}
 .cards2 video {
     position: absolute;
     top: 0;
@@ -799,4 +836,73 @@ h1 .yellow {
   text-align: center;
   color: #444;
   margin-bottom: 30px;
+}
+
+/* --- Sección Pixelmator: Diseño principal --- */
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin: 80px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Tarjetas base */
+.design-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+}
+
+/* --- The Arrange tool (imagen ocupa toda la card) --- */
+.design-card--full {
+  flex-direction: column;
+}
+
+.design-card--full img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* --- Layer Styles (imagen centrada arriba del texto) --- */
+.design-card--center {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.design-card--center img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* --- Layer-Based Editing (imagen a la derecha del texto) --- */
+.design-card--side {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design-card--side .design-card__text {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.design-card--side img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
 }
