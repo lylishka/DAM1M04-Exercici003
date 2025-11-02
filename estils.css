@@ -447,6 +447,22 @@ body {
     text-align: left;
     width: 350px;
 }
+.card1{ 
+    background: center / cover url("imatges/img_design-guides@2x.jpg");
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 16px;
+    max-width: 275px;
+    min-width: 275px;
+    overflow: hidden;
+}
+.card1 > div { 
+    box-sizing: border-box;
+    min-height: 200px;
+    padding: 16px;
+}
 
 .raw-link {
     color: #026fc9;
