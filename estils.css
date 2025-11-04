@@ -265,6 +265,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    padding: 40px;
 }
 
 .cards {
@@ -323,6 +324,45 @@ body {
     width: 550px;
     height: 100%;
     border-radius: 0 20px 80px 0;
+}
+.card9 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f7d7;
+    width: 450px;
+    min-height: 460px;
+    border-radius: 20px;
+    padding: 40px 60px 0 60px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.card9 h2 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card9 p {
+    color: hwb(0 9% 91%);
+    margin-top: -15px;
+    margin-bottom: 80px;
+    font-size: 20.5px;
+    text-align: left;
+}
+.img_g {
+    width: 360px;
+    height: auto;
+    left: -20px;
+    display: block;
+    position: relative;
+}
+
+.mov{
+  width: 300px;
+  height: auto;
+  position: relative;
+  animation: mover 2s infinite alternate;
 }
 .cards2 {
     display: flex;
@@ -554,6 +594,7 @@ body {
   right: 0px;
   bottom: 20px;
 }
+
 
 .raw-link {
     color: #026fc9;
@@ -967,7 +1008,7 @@ h1 .yellow {
 }
 
 .buy-logo {
-  width: 100px;
+  width: 150px;
   align-items: center;
   justify-content: center;
   height: auto;
@@ -975,7 +1016,7 @@ h1 .yellow {
 }
 
 .buy-title {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   text-align: center;
   color: #000;
@@ -983,7 +1024,7 @@ h1 .yellow {
 }
 
 .buy-text {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   color: #444;
   margin-bottom: 30px;
