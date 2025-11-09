@@ -508,7 +508,7 @@ body {
 
 /* Bloque de texto */
 .card1 p {
-    padding: 230px 0px 266px 36px; /* arriba, derecha, abajo, izquierda */
+    padding: 230px 0px 266px 39px; /* arriba, derecha, abajo, izquierda */
     font-size: 18px;
     line-height: 1.6;
     max-width: 670px;
@@ -520,10 +520,10 @@ body {
 .card1::after {
     content: "";
     position: absolute;
-    right: 0;
+    right: -1px;
     bottom: 0;
-    width: 456px;               /* ajusta el tamaño de la imagen */
-    height: 442px;
+    width: 466px;               /* ajusta el tamaño de la imagen */
+    height: 459px;
     background: url("imatges/img_design-guides@2x.jpg") no-repeat right bottom;
     background-size: contain;
     pointer-events: none;     /* no bloquea clics del texto */
